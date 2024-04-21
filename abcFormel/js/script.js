@@ -1,7 +1,7 @@
 function abcFormel(a, b, c) {
-    let result = [((-b - Math.sqrt((b * b) - (4 * a * c))) / (2 * a)),
-                 ((-b + Math.sqrt((b * b) - (4 * a * c))) / (2 * a))];
-    return result;
+  let result = [((-b - Math.sqrt((b * b) - (4 * a * c))) / (2 * a)),
+  ((-b + Math.sqrt((b * b) - (4 * a * c))) / (2 * a))];
+  return result;
 }
 
 function senden() {

@@ -1,0 +1,8 @@
+body, output1, output2 {
+    background-color: #000000;
+    color: #ffffff;
+}
+input {
+    background-color: #ff0000;
+    color: #000000;
+}

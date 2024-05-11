@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de-At">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abc Formel berechnen</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <h1>abc Formel berechnen</h1>
+    <label for="a">a ist:</label>
+    <input type="number" name="a" id="a" required>
+    <br>
+    <label for="b">b ist:</label>
+    <input type="number" name="b" id="b" required>
+    <br>
+    <label for="c">c ist:</label>
+    <input type="number" name="c" id="c" required>
+    <br><br>
+    <button onclick="senden()">Ausrechnen</button>
+    <br>
+    <div class="flexContainer">
+        <p class="flexItem">Die erste Zahl ist:</p>
+        <pre id="output1" class="flexItem"></pre>
+        <p class="flexItem">Die zweite Zahl ist:</p>
+        <pre id="output2" class="flexItem"></pre>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

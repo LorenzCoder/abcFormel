@@ -1,0 +1,9 @@
+1.1.0,
+21.05.2024:
+Ordnerstruktur mit den Ordnern '/doc/' und '/software/' erstellt.
+LorenzCoder
+
+1.2.0,
+21.05.2024:
+Test
+LorenzCoder
